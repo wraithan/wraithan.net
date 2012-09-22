@@ -1,11 +1,12 @@
-PELICAN=pelican
-PELICANOPTS=
-
 BASEDIR=$(PWD)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+THEMEDIR=$(BASEDIR)/themes/wraithan
+
+PELICAN=pelican
+PELICANOPTS=-t $(THEMEDIR)
 
 FTP_HOST=localhost
 FTP_USER=anonymous

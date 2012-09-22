@@ -5,8 +5,6 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://beta.wraithan.net'
-
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing

@@ -3,20 +3,18 @@
 
 AUTHOR = u"Wraithan"
 SITENAME = u"wraithan.net"
-SITEURL = ''
+SITEURL = 'http://beta.wraithan.net'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Planet Mozilla', 'http://planet.mozilla.org/'),
+          ('Mozilla Webdev', 'https://blog.mozilla.org/webdev/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/wraithan'),
+          ('twitter', 'http://twitter.com/wraithan'),)
 
 DEFAULT_PAGINATION = 10
