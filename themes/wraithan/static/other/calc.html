@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <body>
+    <label>Games: <input id="games"></label>
+    <label>Goal: <input id="goal"></label>
+    <p>Games to go: <div id="games-to-go"></div></p>
+    <p>Games per week: <div id="games-per-week"></div></p>
+    <script type="text/javascript">
+      var gameElement = document.getElementById('games')
+      var goalElement = document.getElementById('goal')
+      var gamesToGoElement = document.getElementById('games-to-go')
+      var gamesPerWeekElement = document.getElementById('games-per-week')
+      var start = new Date(2012, 8, 11)
+      var update = function(event) {
+          var today = new Date()
+          var weeks = (today - start)/1000/60/60/24/7
+          gamesPerWeekElement.innerHTML = (gameElement.value/weeks).toFixed(2)
+          gamesToGoElement.innerHTML = Math.ceil((goalElement.value*weeks) - gameElement.value)
+      }
+
+      gameElement.addEventListener('input', update, false)
+      goalElement.addEventListener('input', update, false)
+    </script>
+  </body>
+</html>
