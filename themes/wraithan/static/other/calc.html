@@ -5,17 +5,21 @@
     <label>Goal: <input id="goal"></label>
     <p>Games to go: <div id="games-to-go"></div></p>
     <p>Games per week: <div id="games-per-week"></div></p>
+    <p>Points so far : <div id="points-so-far"></div></p>
     <script type="text/javascript">
       var gameElement = document.getElementById('games')
       var goalElement = document.getElementById('goal')
       var gamesToGoElement = document.getElementById('games-to-go')
       var gamesPerWeekElement = document.getElementById('games-per-week')
+      var pointsSoFarElement = document.getElementById('points-so-far')
       var start = new Date(2012, 8, 11)
       var update = function(event) {
           var today = new Date()
-          var weeks = (today - start)/1000/60/60/24/7
+          var sinceStart = (today - start)/1000
+          var weeks = sinceStart/60/60/24/7
           gamesPerWeekElement.innerHTML = (gameElement.value/weeks).toFixed(2)
           gamesToGoElement.innerHTML = Math.ceil((goalElement.value*weeks) - gameElement.value)
+          pointsSoFarElement.innerHTML = Math.floor(sinceStart/((116*60)+6))
       }
 
       gameElement.addEventListener('input', update, false)
