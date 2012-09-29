@@ -1,29 +1,37 @@
 <!doctype html>
 <html>
   <body>
+    <p>Enter the games you've played so far this season in the <code>games</code> field, then how many games per week you are aiming to play in the <code>goal</code> field.</p>
     <label>Games: <input id="games"></label>
     <label>Goal: <input id="goal"></label>
+    <label>Wins: <input id="wins"></label>
     <p>Games to go: <div id="games-to-go"></div></p>
     <p>Games per week: <div id="games-per-week"></div></p>
     <p>Points so far : <div id="points-so-far"></div></p>
+    <p>Ratio : <div id="ratio"></div></p>
     <script type="text/javascript">
       var gameElement = document.getElementById('games')
       var goalElement = document.getElementById('goal')
+      var winsElement = document.getElementById('wins')
       var gamesToGoElement = document.getElementById('games-to-go')
       var gamesPerWeekElement = document.getElementById('games-per-week')
       var pointsSoFarElement = document.getElementById('points-so-far')
+      var ratioElement = document.getElementById('ratio')
       var start = new Date(2012, 8, 11)
-      var update = function(event) {
+      var update = function() {
           var today = new Date()
           var sinceStart = (today - start)/1000
           var weeks = sinceStart/60/60/24/7
           gamesPerWeekElement.innerHTML = (gameElement.value/weeks).toFixed(2)
           gamesToGoElement.innerHTML = Math.ceil((goalElement.value*weeks) - gameElement.value)
           pointsSoFarElement.innerHTML = Math.floor(sinceStart/((116*60)+6))
+          ratioElement.innerHTML = (winsElement.value/gameElement.value).toFixed(2)*100 + "%"
       }
 
       gameElement.addEventListener('input', update, false)
       goalElement.addEventListener('input', update, false)
+      winsElement.addEventListener('input', update, false)
+      update()
     </script>
   </body>
 </html>
