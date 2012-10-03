@@ -1,6 +1,6 @@
 The Road to Gold League
 #######################
-:date: 2012-09-21 20:27
+:date: 2012-10-02
 :author: Wraithan
 
 This will be my blog for tracking my progress in StarCraft 2. I find myself
@@ -17,5 +17,9 @@ training for AHGL Season 3, I am on Mozilla's SC2 team. Also, I have recently
 started playing in BSG (Bronze, Silver, and Gold) tournaments on z33k to get my
 feet wet in tournament-land.
 
+My plan is to have 4 solid builds, one for each of: Protoss, Terran, Zerg, and
+Random Zerg. The reason why I don't need builds for Random Protoss or random
+Terran is due to my opening for Random being the same as my opening for my
+regular matchup with those races.
 
-
+Anyway, I'll track my progress is subsequent blog posts.
