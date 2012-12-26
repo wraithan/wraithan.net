@@ -48,6 +48,6 @@ adjust accordingly.
 .. _`Darglein's Micro Trainer`: http://www.sc2mapster.com/maps/dargleins-micro-trainer/
 .. _TheStaircase: http://www.teamliquid.net/forum/viewmessage.php?topic_id=374400
 .. _GGTracker: http://ggtracker.com/
-.. _`building a site`: http://thestaircase.net/
+.. _`building a site`: http://thestaircase.org/
 .. _AHGL: http://afterhoursgaming.tv/
 .. _`The Art of Learning`: http://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465
