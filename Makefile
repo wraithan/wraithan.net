@@ -3,7 +3,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-THEMEDIR=$(BASEDIR)/themes/wraithan
+THEMEDIR=$(BASEDIR)/themes/bootstrap
 
 PELICAN=pelican
 PELICANOPTS=-t $(THEMEDIR)
