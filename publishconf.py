@@ -5,6 +5,11 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
+try:
+    from local import *
+except ImportError:
+    pass
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
