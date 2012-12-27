@@ -16,6 +16,7 @@ LINKS =  (('Planet Mozilla', 'http://planet.mozilla.org/'),
 # Social widget
 SOCIAL = ((' wraithan', 'https://github.com/wraithan'),
           (' Wraithan', 'https://facebook.com/Wraithan'),
-          (' @Wraithan', 'http://twitter.com/wraithan'),)
+          (' @Wraithan', 'http://twitter.com/wraithan'),
+          (' Wraithan', 'http://twitch.tv/wraithan'),)
 
 DEFAULT_PAGINATION = 10

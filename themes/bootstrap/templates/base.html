@@ -36,7 +36,7 @@
 	      {% endfor %}
 	      {% endif %}
 	      {% for cat, null in categories %}
-	      <li {% if cat == category %}class="active"{% endif %}><a href="http://{{ cat }}.wraithan.net/">{{ cat }}</a></li>
+	      <li {% if cat == category %}class="active"{% endif %}><a href="http://{{ cat.name.lower() }}.wraithan.net/">{{ cat }}</a></li>
 	      {% endfor %}
             </ul>
 	    <ul class="nav pull-right">
