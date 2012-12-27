@@ -2,7 +2,7 @@ wraithan.net
 ############
 
 This is the next gen of my site, wraithan.net. It is powered by Pelican_. It is
-divided into 3 sections:
+divided into an aggregate and 3 sections:
 
 * Beta_ - The aggregation of the blogs for now until I get the blogger posts
   imported and the kinks worked out.
