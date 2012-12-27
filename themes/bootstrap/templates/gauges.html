@@ -1,0 +1,19 @@
+{% if GITHUB_URL %}
+<a href="{{ GITHUB_URL }}"><img style="position: absolute; top: 39px; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub" /></a>
+{% endif %}
+
+{% if GAUGES_TOKEN %}
+<script type="text/javascript">
+  var = _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', {{ GAUGES_TOKEN }});
+    t.src   = '//secure.gaug.es/track.js';
+    var s   = document.getElementByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+{% endif %}
