@@ -20,3 +20,6 @@ SOCIAL = ((' wraithan', 'https://github.com/wraithan'),
           (' Wraithan', 'http://twitch.tv/wraithan'),)
 
 DEFAULT_PAGINATION = 10
+
+FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
+                 ('extra/favicon.ico', 'favicon.ico'),)
