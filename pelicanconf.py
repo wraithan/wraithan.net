@@ -10,16 +10,21 @@ TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
 
 # Blogroll
-LINKS =  (('Planet Mozilla', 'http://planet.mozilla.org/'),
-          ('Mozilla Webdev', 'https://blog.mozilla.org/webdev/'),)
+LINKS =  (
+    ('Planet Mozilla', 'http://planet.mozilla.org/'),
+    ('Mozilla Webdev', 'https://blog.mozilla.org/webdev/'),
+)
 
 # Social widget
-SOCIAL = ((' wraithan', 'https://github.com/wraithan'),
-          (' Wraithan', 'https://facebook.com/Wraithan'),
-          (' @Wraithan', 'http://twitter.com/wraithan'),
-          (' Wraithan', 'http://twitch.tv/wraithan'),)
-
+SOCIAL = (
+    (' GitHub', 'https://github.com/wraithan'),
+    (' Facebook', 'https://facebook.com/Wraithan'),
+    (' Twitch', 'http://twitch.tv/wraithan'),
+    (' Twitter', 'http://twitter.com/wraithan'),
+)
 DEFAULT_PAGINATION = 10
 
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
-                 ('extra/favicon.ico', 'favicon.ico'),)
+FILES_TO_COPY = (
+    ('extra/robots.txt', 'robots.txt'),
+    ('extra/favicon.ico', 'favicon.ico'),
+)
