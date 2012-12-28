@@ -11,8 +11,8 @@ DEFAULT_LANG = 'en'
 
 # Blogroll
 LINKS =  (
-    ('Planet Mozilla', 'http://planet.mozilla.org/'),
     ('Mozilla Webdev', 'https://blog.mozilla.org/webdev/'),
+    ('Planet Mozilla', 'http://planet.mozilla.org/'),
 )
 
 # Social widget
