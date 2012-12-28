@@ -19,6 +19,15 @@ footer {
 .summary * { display: inline; }
 .summary pre { display: none; }
 
+.article:first-of-type .page-header { margin-top: 0px; }
+.article:first-of-type .page-header h1,h2 { margin-top: 0px; }
+.page-header {
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+.page-header h2 { margin-bottom: 2px; }
+.article { margin-bottom: 10px; }
+
 .social a[href*='atom.xml']:before {content: url('./images/icons/rss.png');}
 .social a[href*='bitbucket.org']:before {content: url('./images/icons/bitbucket.png');}
 .social a[href*='facebook.com']:before {content: url('./images/icons/facebook.png');}

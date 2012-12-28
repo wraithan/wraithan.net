@@ -1,9 +1,10 @@
 {% extends "base.html" %}
-{% block title %}{{ SITENAME }} <small>[categories]</small>{% endblock %}
+{% block windowtitle %}{{ SITENAME }} - Categories{% endblock %}
 {% block content %}
+<h3>Categories:</h3>
 <ul>
-{% for category, articles in categories %}
-	<li><a href="http://{{ category.name.lower() }}.wraithan.net">{{ category }}</a></li>
-{% endfor %}
+  {% for category, articles in categories %}
+  <li><a href="http://{{ category.name.lower() }}.wraithan.net">{{ category }}</a></li>
+  {% endfor %}
 </ul>
 {% endblock %}
