@@ -19,6 +19,8 @@ footer {
 .summary * { display: inline; }
 .summary pre { display: none; }
 
+h2 > a { color: rgb(200, 200, 200) }
+
 .article:first-of-type .page-header { margin-top: 0px; }
 .article:first-of-type .page-header h1,h2 { margin-top: 0px; }
 .page-header {

@@ -29,16 +29,18 @@
             <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }}</a>
             <ul class="nav">
               {% for title, link in MENUITEMS %}
-              <li><a href="{{ link }}">{{ title }}</a></li>
+                <li><a href="{{ link }}">{{ title }}</a></li>
               {% endfor %}
-              {% if DISPLAY_PAGES_ON_MENU %}
-              {% for page in PAGES %}
-              <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-              {% endfor %}
-              {% endif %}
               {% for cat, null in categories %}
-              <li {% if cat == category %}class="active"{% endif %}><a href="http://{{ cat.name.lower() }}.wraithan.net/">{{ cat }}</a></li>
+                <li {% if cat == category %}class="active"{% endif %}><a href="http://{{ cat.name.lower() }}.wraithan.net/">{{ cat }}</a></li>
               {% endfor %}
+            </ul>
+            <ul class="nav pull-right">
+              {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in PAGES %}
+                  <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+              {% endif %}
               <li><a href="{{ SITEURL }}/archives.html">Archives</a></li>
             </ul>
           </div>
@@ -48,27 +50,28 @@
       <div class="row">
         <div class="span3">
           <div class="well sidebar-nav">
-              <ul class="nav nav-list">
-                <li class="nav-header">Blogroll</li>
-                {% for name, link in LINKS %}
-                <li><a href="{{ link }}">{{ name }}</a></li>
-                {% endfor %}
-                <li class="nav-header">Social</li>
-                {% for name, link in SOCIAL %}
-                <li class="social"><a href="{{ link }}">{{ name }}</a></li>
-                {% endfor %}
-              </ul>
+            <ul class="nav nav-list">
+              <li class="nav-header">Blogroll</li>
+              {% for name, link in LINKS %}
+              <li><a href="{{ link }}">{{ name }}</a></li>
+              {% endfor %}
+              <li class="nav-header">Social</li>
+              {% for name, link in SOCIAL %}
+              <li class="social"><a href="{{ link }}">{{ name }}</a></li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
         <div class="span9">
           <div class="content">
             {% block content %}{% endblock %}
+          </div>
         </div>
-          <footer>
-            <p> Powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>, theme based on <a href="http://twitter.github.com/bootstrap/">Bootstrap, from Twitter</a>.</p>
-            <p>&copy; {{ AUTHOR }} 2013</p>
-          </footer>
-        </div>
+      </div>
+      <footer>
+        <p> Powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>, theme based on <a href="http://twitter.github.com/bootstrap/">Bootstrap, from Twitter</a>.</p>
+        <p>&copy; {{ AUTHOR }} 2013</p>
+      </footer>
       </div>
     </div>
     {% include "gauges.html" %}

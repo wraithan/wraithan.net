@@ -26,3 +26,7 @@ I think I am going to setup the automatic publishing and see how it goes. I
 don't have to remove my fabric setup because I add the automatic publishing
 which lets me fall back on it. When I have the whole thing working I'll do a
 full write-up on it including source.
+
+.. _fabric: http://fabfile.com
+.. _weblistener: http://example.com
+.. _ZenIRCBot: http://example.com
