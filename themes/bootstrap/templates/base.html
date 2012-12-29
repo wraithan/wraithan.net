@@ -59,6 +59,11 @@
               {% for name, link in SOCIAL %}
               <li class="social"><a href="{{ link }}">{{ name }}</a></li>
               {% endfor %}
+              <li class="nav-header">Feeds</li>
+              <li class="social"><a href="{{ SITEURL }}/feeds/all.atom.xml"> All</a></li>
+              {% for cat, null in categories %}
+                <li class="social"><a href="http://{{ cat.name.lower() }}.wraithan.net/feeds/{{ cat}}.atom.xml"> {{ cat }}</a></li>
+              {% endfor %}
             </ul>
           </div>
         </div>
@@ -69,7 +74,9 @@
         </div>
       </div>
       <footer>
-        <p> Powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>, theme based on <a href="http://twitter.github.com/bootstrap/">Bootstrap, from Twitter</a>.</p>
+        <p>Powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>,
+          theme based on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> by <a href="http://twitter.com/">Twitter</a>
+          and <a href="http://bootswatch.com/cyborg/">Cyborg</a> by <a href="http://bootswatch.com/">Bootswatch</a>.</p>
         <p>&copy; {{ AUTHOR }} 2013</p>
       </footer>
       </div>

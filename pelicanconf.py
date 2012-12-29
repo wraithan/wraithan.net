@@ -5,6 +5,8 @@ AUTHOR = u'Wraithan'
 SITENAME = u'wraithan.net'
 SITEURL = 'http://beta.wraithan.net'
 
+CATEGORY_URL = 'http://%s.wraithan.net'
+
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
