@@ -39,7 +39,6 @@ h2 > a { color: rgb(200, 200, 200) }
 }
 .league-icon {
   height: 64px;
-  width: 64px;
 }
 
 .social a[href*='atom.xml']:before {content: url('./images/icons/rss.png');}
