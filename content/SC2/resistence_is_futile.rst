@@ -1,5 +1,6 @@
 :title: Resistance is <strike>Futile</strike> Silly
 :date: 2012-12-29
+:league: silver
 
 One of the first things that is brought up in `The Art of Learning`_ is the how
 the author had started learning chess on his own and had developed some bad
