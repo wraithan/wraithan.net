@@ -1,6 +1,6 @@
-Tracking my Progress
-####################
+:title: Tracking my Progress
 :date: 2012-12-24
+:league: bronze
 
 This will be my blog for tracking my progress in StarCraft 2. I find myself
 wanting more direction in what I am working on. In turn the goal of this blog

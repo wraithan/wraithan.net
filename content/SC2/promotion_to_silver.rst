@@ -1,6 +1,6 @@
-Promoted to Silver
-##################
+:title: Promoted to Silver
 :date: 2012-12-27
+:league: silver
 
 I was pretty bummed when I was placed in HotS and got placed into
 Bronze. In WoL I was Silver and the MMR tool said I was nearing

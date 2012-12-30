@@ -2,8 +2,12 @@
 {% block windowtitle %}{{ SITENAME }} - {{ article.title }}{% endblock %}
 {% block indextitle %}{% endblock %}
 {% block content %}
+
 <div class="article">
   <div class="page-header">
+    <div class="league">
+      <img class="league-icon" src="{{ SITEURL }}/theme/images/{{article.league}}.png" alt="{{article.league}}" title="Written while {{article.league}}">
+    </div>
     <h1>{{ article.title }}</h1>
     <div class="small">{% include "metadata.html" %}</div>
   </div>

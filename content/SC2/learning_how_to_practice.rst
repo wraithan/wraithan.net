@@ -1,6 +1,6 @@
-Learning How to Practice
-########################
+:title: Learning How to Practice
 :date: 2012-12-25
+:league: bronze
 
 I've been pondering how to get better at SC2. There are a lot of opinions on
 this, watch soandso's videos, use one generic build for everyone that teaches

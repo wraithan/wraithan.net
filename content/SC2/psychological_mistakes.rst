@@ -1,5 +1,6 @@
 :title: Psychological Mistakes
 :date: 2012-12-30
+:league: silver
 
 A quote from `The Art of Learning`_ really hit me this morning:
 
