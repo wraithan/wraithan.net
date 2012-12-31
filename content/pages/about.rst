@@ -7,6 +7,13 @@ Portland, Oregon, USA, North America, Earth, etc.
 
 .. _Mozilla: http://mozilla.org/
 
+I am not currently looking for work as I am very happy with my job at Mozilla.
+But, for future reference my resume_ is hosted on ReadTheDocs_ so you want to
+know where I've worked or what side projects I've put time into, start there!
+
+.. _resume: http://resume.wraithan.net/
+.. _ReadTheDocs: http://readthedocs.org/
+
 This site is an aggregate of 3 blogs, described below:
 
 Life
