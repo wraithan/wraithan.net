@@ -3,7 +3,7 @@
 
 AUTHOR = u'Wraithan'
 SITENAME = u'wraithan.net'
-SITEURL = 'http://beta.wraithan.net'
+SITEURL = 'http://wraithan.net'
 
 CATEGORY_URL = 'http://%s.wraithan.net'
 
