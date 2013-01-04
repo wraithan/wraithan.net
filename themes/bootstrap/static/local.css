@@ -3,6 +3,8 @@ div.highlight pre {
   margin: 0 0 10px;
 }
 
+strong { color: rgb(200, 200, 200) }
+
 .well.small {
   padding: 6px 6px 4px;
 }
