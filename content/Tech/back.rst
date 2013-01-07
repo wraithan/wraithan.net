@@ -1,0 +1,6 @@
+:title: Back !
+:date: 2011-02-16
+
+.. raw:: html
+
+    So here I am, back on blogger. Though I have my own domain name it still feels like a bit of a cop out.<br /><br />I wrote my own blogging software, which seems like it should be an achievement and as a software developer I could customize it all I ever wanted etc, etc. The thing is, making things pretty is hard. I am not aesthetically talented, so when it comes to stylizing things, I get frustrated, and in the case of personal projects, give up.<br /><br />I have been wanting to write again, blog about different technical hurdles I have overcome, at home and at work. Share things like how I got org-mode setup with org-protocol or the nginx setup I have switch to because of how much cleaner it feels than using apache. Things like that.<br /><br />So you can look forward to updates on this blog, though I don't know how often I will update it, and I wont make a promise for every day, every week or even every month. But every time I feel like writing about something technical or nerdy you can bet I'll do it here (or rant on IRC)<br /><br />Wraithan

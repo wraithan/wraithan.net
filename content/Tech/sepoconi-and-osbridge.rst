@@ -1,0 +1,6 @@
+:title: SEPoCoNi and OSBridge!
+:date: 2012-03-26
+
+.. raw:: html
+
+    <a href="http://opensourcebridge.org/">Open Source Bridge</a> has generously given <a href="https://twitter.com/#%21/SEPoCoNi">SE Portland Coders' Night</a> a free ticket to their conference to be given away at random. So what do you, as an interested party, have to do to win it? It is really simple, show up to the next <a href="https://twitter.com/#%21/SEPoCoNi">SEPoCoNi</a> which is on Thursday, March 29th, at 6pm. Show up by 8pm and get your name entered. Win and it is yours! Lose and well, you still get to hang out, talk code/tech/etc with us and eat delicious nachos. Details below.<br /><br /><a href="http://opensourcebridge.org/">Open Source Bridge</a> takes place on June 26–29, 2012 in Portland, Oregon. If you can't make it to this please do not enter. If you enter, and find out later you can't make it, contact me and we'll see if we can give back your ticket for another one to randomly give away at one of our meetups.<br /><br /><a href="https://twitter.com/#%21/SEPoCoNi">SEPoCoNi</a> is a social and coding get together once a week at <a href="https://www.facebook.com/pages/The-Side-Door/116189835068508">The Side Door</a> on Thursday at 6pm. We are language, framework, and platform agnostic. Come and eat nachos with us.

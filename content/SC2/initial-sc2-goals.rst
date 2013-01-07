@@ -1,0 +1,6 @@
+:title: Initial SC2 Goals
+:date: 2012-05-25
+
+.. raw:: html
+
+    These are the things I'm working on for the next month: <br /><dl><dt>Consistent Macro.</dt><dd><b>Problem:</b> Once I have to micro at all, I have a hard time catching back up on my resources. Also my probe production has a pretty steep drop off after I have a few buildings to look after, especially once I have taken my natural.<br /><br /><b>Solution: </b>I plan on working on this by tracking my average unspent resources and aiming to lower it to a reasonable level. I need initial stats before I can say where I want it in a month</dd><br /><dt>Keeping my calm under early pressure.</dt><dd><b>Problem:</b> Cheese gets me worse than it should. Even if I can repel it, I've taken a huge hit to my economy because I spent time on micro and forgot to macro. Not only that, but I don't make units to defend as often as I can which leads to it being distracting for longer. Together the two make it so cheese eventually destroys me.<br /><br /><b>Solution: </b>I plan on working on this while laddering and during my Saturday night practice sessions with my friends.</dd></dl>Both are things I can continually improve on, they are fundamentals. But as fundamentals, I need them to be at least not weak before I can start to worry about other things.
