@@ -12,4 +12,7 @@ I could have kept their zerglings and rouches where I wanted them. Instead, I
 lost because I couldn't control them.
 
 I am glad I did the experiment though. I think I will continue with this build
-but build my second, third and fourth gateways on my natural ramp to all
+but build my second, third and fourth gateways on my natural ramp to wall off
+there and get some better control. There are some other potential problems I can
+see with this build, such as if they go muta I'm going to definitely need storm
+researched and to keep an HT in each mineral line.
