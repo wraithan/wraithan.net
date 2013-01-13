@@ -1,5 +1,6 @@
 :title: TheStaircase
 :date: 2013-01-12
+:league: silver
 
 I've off and on used a system called TheStaircase_. So much so that I am even
 working on `thestaircase.org`_. It has a really intuitive style for learning SC2
