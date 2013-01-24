@@ -1,6 +1,5 @@
 :title: What Did I Do Today
-:date: 2013-01-13
-:status: draft
+:date: 2013-01-23
 
 I have really inconsistent productivity. Some days I am on fire and really
 hammering out code. Other days I get to the end and have nothing to show for it
@@ -12,12 +11,19 @@ I opted include some other stuff, both for my boss' sake and for my own tracking
 of my day. The basic format of the email is:
 
     Today:
-    * http://bugzil.la/700000 : Wrote some code and made progress.
+
+    * http://bugzil.la/700000 :
+
+      * Wrote some code and made progress in the morning.
+      * Finished in the afternoon, landed.
+
     * Other stuff: Helped edit someone's blog post
+
     Tomorrow:
+
     * http://bugzil.la/800000 : This is my highest priority thing, it should
       only take me 2 hours.
-    
+
     I felt ok about today, I was distracted a bit with IRC questions. I might
     try keeping IRC minimized for parts of the day and only look at it when I am
     highlighted.
