@@ -940,7 +940,7 @@ blockquote p{font-size:inherit;font-weight:inherit;}
 .modal{-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;border-top:solid 1px #2f2f2f;background-color:#222222;}
 .modal-header{border-bottom:1px solid #222222;}
 .modal-footer{background-color:#222222;border-top:1px solid #222222;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
-.footer{border-top:1px solid #222222;}
+.footer{padding-top:4px;border-top:1px solid #222222;}
 @media (max-width:768px){div.subnav .nav>li+li>a,div.subnav .nav>li:first-child>a{border-top:1px solid #222222;border-left:1px solid #222222;} .subnav .nav>li+li>a:hover,.subnav .nav>li:first-child>a:hover{border-bottom:0;background-color:#33b5e5;}}.pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}
