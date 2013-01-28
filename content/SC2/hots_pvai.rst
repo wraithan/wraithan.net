@@ -1,5 +1,6 @@
 :title: Heart of the Swarm: Player vs AI
 :date: 2013-01-28
+:league: silver
 
 Spent a bit of time tonight playing the new Player vs AI. It is pretty
 fun. It makes you play through the difficulties until you hit the
