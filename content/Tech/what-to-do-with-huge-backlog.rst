@@ -1,5 +1,6 @@
 :title: What to do with a huge backlog...
 :date: 2011-03-17
+:slug: what-to-do-with-huge-backglog
 
 .. raw:: html
 
