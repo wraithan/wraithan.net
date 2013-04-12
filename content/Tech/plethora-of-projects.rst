@@ -67,16 +67,17 @@ require much maintenance.
 hackspots.net_
 --------------
 
-This project hasn't even started other than `gathering data`_. There is lots of
-hope in it though, and I really want it to exist. It has a lot of potential for
-those of us in town to discover new places to go, and to provide a place to
-send people who are new to town.
+**Since it's new, maybe add information about what it is?**
 
-The project needs to be inited, in an effort to not polarize to one of the two
-bigger server side web languages (Python/Ruby) I'll likely be going with
-nodejs. Theoretically there is a code base that was already started but it
-isn't open source yet and rather than wait/force it to go open, I can just
-build it myself.
+This project is still `gathering data`_. It has potential to help Portlandians
+discover new **places to go**, and to provide a place to send people who are new
+to town.
+
+**(Unclear what "places to go" actually means. (i.e. go do what? This could
+benefit from context, as noted above.)**
+
+Coding hasn't yet begun. In an effort to not polarize Pythonistas or Rubyists,
+I'll likely use nodejs.
 
 .. _hackspots.net: http://hackspots.net/
 .. _`gathering data`: https://wraithan.etherpad.mozilla.org/cafe-hacking-pdx
