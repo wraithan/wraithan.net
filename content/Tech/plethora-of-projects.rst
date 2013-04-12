@@ -96,11 +96,10 @@ I've put it on the back burner until I can clear other things off my plate.
 training.wraithan.net_
 ----------------------
 
-This one is in fact just throwing a 500 right now. I upgraded some stuff and it
-is all broken. As I get ready to do more century rides this summer I will want
-to have this around. Also I'd like to add integration for more than just
-DailyMile_. There isn't a ton of work to do, other than getting it working
-again.
+This one is broken. In fact, it's throwing a 500 right now. As I get ready to do
+more century rides this summer, I'll want to **(have a place to log training
+rides?)**. I'd like to add integration for more than just DailyMile_. Other than
+getting it functional again, there isn't a ton of work to do.
 
 .. _training.wraithan.net: http://training.wraithan.net/
 .. _DailyMile: http://www.dailymile.com/
@@ -109,8 +108,7 @@ again.
 Summary
 -------
 
-I have a lot of projects to work on, some of which are higher priority than
-others. I am feeling rather overwhelmed when you combine this list with my
-hobbies, work, and other obligations. Hopefully, if you are using any of these
-projects, you'll be patient with me as I try to find the time to improve them
+I have many projects to work on, some of which are higher priority than others.
+When combined with other hobbies, work, and obligations, I'm feeling a bit
+overwhelmed. Please be patient with me as I try to find the time to work on them
 all.
