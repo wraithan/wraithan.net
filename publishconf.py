@@ -3,10 +3,10 @@
 
 import sys
 sys.path.append('.')
-from pelicanconf import *
+from pelicanconf import *  # noqa
 
 try:
-    from local import *
+    from local import *  # noqa
 except ImportError:
     pass
 

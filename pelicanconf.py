@@ -12,7 +12,7 @@ TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
 
 # Blogroll
-LINKS =  (
+LINKS = (
     ('Mozilla Webdev', 'https://blog.mozilla.org/webdev/'),
     ('Planet Mozilla', 'http://planet.mozilla.org/'),
 )
@@ -30,3 +30,5 @@ FILES_TO_COPY = (
     ('extra/robots.txt', 'robots.txt'),
     ('extra/favicon.ico', 'favicon.ico'),
 )
+
+IGNORE_FILES = '.#*'
