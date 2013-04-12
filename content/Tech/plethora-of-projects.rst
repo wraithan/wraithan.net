@@ -1,7 +1,7 @@
 :title: Plethora of Projects
 :date: 2013-04-11
 
-I find myself in a place where I have many projects that people ping me about
+I find myself in a place where I have many of projects that people ping me about
 regularly. I enjoy each of them and would love to dedicate the time to each that
 they deserve. This post is an enumeration of those projects and my goals.
 
@@ -29,25 +29,24 @@ won't go into.
 ZenIRCBot_
 ----------
 
-This project has been gathering more users as well as contributors.
-Unfortunately it has been sitting there bitrotting (from my standpoint) due to
-being too busy for it. I am going to be trying to take over part of the May
-PDXNode_ hack night as a ZenIRCBot_ hack night.
+Though this project has gatehred more users and contributors, it has also been a
+victim of bitrot. To remedy, I will try to take over part of the May PDXNode_
+hack night as a ZenIRCBot_ hack night. **<If you're interested in contributing,
+ehere are details>.**
 
-This code base is also in dire need of a cleanup. We have 3.0 coming out soon,
-along with that I'm also going to be moving it under an org and splitting out
-various parts into their own repos under that org. Once that is done, I'll be
-adding the backwards compatible changes like multiple server support. The
-nodejs_ version will be the blessed version and I'll try to keep the python_
-and clojure_ versions up to date but I don't want to let them hold back the
-bot.
+This code base is also in dire need of a cleanup. 3.0 is coming out soon, and
+we'll be moving it under a `GitHub Organization`_ and splitting various parts
+into their own repos. Once that is done, I'll add backwards-compatible changes
+like multiple server support. The nodejs_ version will be**(-come?)** the
+officially-blessed version, and though I'll try to keep the python_ and clojure_
+versions up-to-date, I don't want them to hold back the project.
 
-Finally, I've already added `Aaron Parecki`_ as a contributor and we'll be code
-reviewing each other's patches as well as sharing the burden of accepting pull
-requests and such.
+Finally, I've added `Aaron Parecki`_ as a contributor. We'll be reviewing each
+other's patches as well as sharing the burden of project maintenance.
 
 .. _ZenIRCBot: http://docs.zenircbot.net/
 .. _PDXNode: http://www.pdxnode.com/
+.. _`GitHub Organization`: https://github.com/blog/674-introducing-organizations
 .. _nodejs: http://nodejs.org/
 .. _python: https://python.org
 .. _clojure: http://clojure.org/
