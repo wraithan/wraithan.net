@@ -55,15 +55,12 @@ other's patches as well as sharing the burden of project maintenance.
 pytmux_
 -------
 
-This is a newer project that is currently in a working state but I'd like
-finish some features so can release 1.0 and leave the project in a stable
-state.
+This is a newer project. Though currently in a working state, I'd like to finish
+some features and release 1.0 as a stable product.
 
-The next steps for this are some more of the basic features (which are already
-filed as issues on github) as well as taking some time looking at the other
-projects in this space and determine what a 1.0 release should look like. This
-should be a minimal amount of hacking and should result in something that
-doesn't require much maintenance.
+The next steps are basic features (already filed as issues on github), that
+should be a minimal amount of hacking and result in something that doesn't
+require much maintenance.
 
 .. _pytmux: https://crate.io/packages/pytmux/
 
