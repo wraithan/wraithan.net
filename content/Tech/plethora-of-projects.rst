@@ -85,10 +85,11 @@ I'll likely use nodejs.
 `Django Debug Panel`_
 ---------------------
 
-This project has wonderful potential and high aspirations. Unfortunately it is
-also quite a bit of work. I have lots of prior art to sort through, issues to
-create, then finally I have to build it and document the protocol. This project
-is on the back burner for now until I can clear some other things off my plate.
+**Could also be helped by context, especially given the similar name to the
+toolbar**
+
+Though this project has great potential, it is an unfortunate amount of work.
+I've put it on the back burner until I can clear other things off my plate.
 
 .. _`Django Debug Panel`: https://github.com/wraithan/django-debug-panel
 
