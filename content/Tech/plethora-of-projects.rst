@@ -110,3 +110,13 @@ again.
 
 .. _training.wraithan.net: http://training.wraithan.net/
 .. _DailyMile: http://www.dailymile.com/
+
+
+Summary
+-------
+
+I have a lot of projects to work on, some of which are higher priority than
+others. I am feeling rather overwhelmed when you combine this list with my
+hobbies, work, and other obligations. Hopefully, if you are using any of these
+projects, you'll be patient with me as I try to find the time to improve them
+all.
