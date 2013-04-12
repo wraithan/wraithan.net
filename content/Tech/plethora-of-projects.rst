@@ -1,10 +1,9 @@
 :title: Plethora of Projects
 :date: 2013-04-11
 
-I find myself in a state where I have a lot of projects that people ping me
-about regularly. I am very into each of them and would love if I could dedicate
-the time that they deserve to them. This posting is mostly an enumeration of
-those projects and what I want to do with them.
+I find myself in a place where I have many projects that people ping me about
+regularly. I enjoy each of them and would love to dedicate the time to each that
+they deserve. This post is an enumeration of those projects and my goals.
 
 `Read the Docs`_
 ----------------
