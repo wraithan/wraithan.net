@@ -9,19 +9,18 @@ they deserve. This post is an enumeration of those projects and my goals.
 ----------------
 
 This is definitely my highest priority project. It has the most users and with
-my friend `Eric Holscher`_ leaving on a `long hike`_ soon I'll be the primary
-caretaker of the project. I have various issues to work architecturally which
-are moderately boring or security related so I wont go into those.
+my friend `Eric Holscher`_ soon leaving on a `long hike`_, I'll be its primary
+caretaker. I won't go into the moderately boring or security-related
+architectural issues.
 
-I've already started into one of my goals which was to clean up the code
-base. I've gotten the files to all comply to flake8_ which is a big step
-forward. Next I will be cleaning things up so the project is closer to what I
-am used at work, which also gives us a style guide we can simply just cite.
+I've already started into one of my goals: cleaning up the code base. I've
+gotten all the files to comply to flake8_; a big step forward. Next, I will
+refactor closer to what the style guide we use at work, giving us a style guide
+to cite.
 
-During that work, I'll be changing out the log in system to `Mozilla Persona`_
-and eliminate the need for passwords. Also, I'll be trying to add more tests to
-the system, both unit and integration as currently our coverage is scarily
-scant.
+During that work, I'll change the log in system to `Mozilla Persona`_,
+eliminating the need for passwords. I'll also work to increase our scant unit
+and integration test coverage
 
 .. _`Read the Docs`: https://readthedocs.org/
 .. _`Eric Holscher`: http://ericholscher.com/
