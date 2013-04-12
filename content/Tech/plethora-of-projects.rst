@@ -1,9 +1,9 @@
 :title: Plethora of Projects
 :date: 2013-04-11
 
-I find myself in a state where I have a lot of projects that people ping me
-about regularly. I am very into each of them and would love if I could dedicate
-the time that they deserve to them. This posting is mostly an enumeration of
+I find myself in a state where I have many projects that people ping me about
+regularly. I am very into all of them and would love if I could dedicate to
+each of them time that they deserve. This posting is mostly an enumeration of
 those projects and what I want to do with them.
 
 `Read the Docs`_
@@ -12,22 +12,23 @@ those projects and what I want to do with them.
 This is definitely my highest priority project. It has the most users and with
 my friend `Eric Holscher`_ leaving on a `long hike`_ soon I'll be the primary
 caretaker of the project. I have various issues to work architecturally which
-are moderately boring or security related so I wont go into those.
+are moderately boring or security related but will be taking some of my
+development time on this project.
 
-I've already started into one of my goals which was to clean up the code
-base. I've gotten the files to all comply to flake8_ which is a big step
-forward. Next I will be cleaning things up so the project is closer to what I
-am used at work, which also gives us a style guide we can simply just cite.
+I've already started into one of my bigger goals which is to clean up the code
+base. The files to all comply to flake8_ which is a step in the right
+direction. Next I will be cleaning things up so the project is closer to what I
+am used at work, which also gives us a `style guide`_ we can simply just cite.
 
-During that work, I'll be changing out the log in system to `Mozilla Persona`_
-and eliminate the need for passwords. Also, I'll be trying to add more tests to
-the system, both unit and integration as currently our coverage is scarily
-scant.
+Another goal is to change out the log in system to `Mozilla Persona`_ and
+eliminate the need for passwords. This, along with some other architecture
+fixes will make the platform a bit safer.
 
 .. _`Read the Docs`: https://readthedocs.org/
 .. _`Eric Holscher`: http://ericholscher.com/
 .. _`long hike`: http://ericholscher.com/blog/2013/jan/10/walk-woods/
 .. _flake8: http://flake8.rtfd.org/
+.. _`style guide`: http://mozweb.readthedocs.org/en/latest/coding.html#python
 .. _`Mozilla Persona`: https://login.persona.org/
 
 ZenIRCBot_
